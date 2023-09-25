@@ -1,0 +1,35 @@
+Tableau Pizza sales Dashboard
+Background
+	Sales from fictional Pizza Restaraunt for 2015
+Questions:
+	Are sales $, orders, and units sold UP or Down in current month (Dec) over previous
+	When are sales strongest and weakes (days and times)
+	Which sizes and types are strongest and weakest
+	Any opportunities to capitalize on strengths and eliminate weaknesses
+Findings:
+	Sales $, orders, units all down in Dec vs Nov
+	Sales down most, with units and orders slightly less
+		Takeaway-fewer multi pizza orders are being placed, making less effective sales
+		
+	Sales $ are strongest at lunch time hours, followed by dinner, and stronger on weekdays than weekends
+	Avg pizzas per order highest at lunch
+		Takeaway-improve order nos and pizzas/order at dinner time to bolster sales
+	Sales much lower before 10 and after 10 pm
+		Takeaway-open later/closer earlier to avoud overhead at very slow times
+	Very few XL or XXL sold
+		Drop from menu, as cost of keeping prepared dough for those sizes outweighs occasional sale $
+	Items such as Brie Carre sell far fewer units than others in category	
+		Drop bottom sellers to eliminate cost of rare ingredients for poor selling items.
+	
+	Opportunties:
+		offer BoGo at dinner time to increase order #s and encourage more units per sale
+		Eliminate early and late hours
+		Drop Xl and XXl sizes and Brie Carre from menu
+Techniques used:
+	Perameters 
+		filtering sales month and category
+		
+	Calculated fields
+		calculating sales/units/orders in month and % change MoM
+	LOD Expression
+		calculate units per order and use as convert to dimension
