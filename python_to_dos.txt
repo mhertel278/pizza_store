@@ -1,0 +1,4 @@
+Pizza Sales Python Cleanup to dos
+remove reduntant steps (resample orders on M vs resample combined orders/units/dollars table)
+Add markdown headers for analysis vs data validation step
+add comments on checking dec line items min/max for process of dashboard data validation
