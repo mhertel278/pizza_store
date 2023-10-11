@@ -42,5 +42,11 @@
     Items suc as Bree Carre pizza sell far fewer units than other types in the same category
         Recommendation: eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
+## Techniques Used
+    Tableau Techniques:
+    - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
+    - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes
+    
+
     
     
