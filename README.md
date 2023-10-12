@@ -10,8 +10,8 @@
         pizza_types.csv
 
     - Tools Used:
-        Tableau Public
-        Python
+        Tableau Public - Dashboard 
+        Python - Exploraty Analysis and Dashboard Data Validation
 
 ## Questions to Answer:
     Find monthly totals for KPIs with percentage change from previous month
@@ -25,8 +25,8 @@
 
 ## Findings:
     Total dollars sold, total orders, and total units sold are all down in December from November
-    Total dollars is down more than total units and total orders
-        Fewer people are buying high dollar items, and fewer are ordering multiple pizzas on an order
+    Total dollars and units sold are down more than number of orders
+        Fewer people are ordering multiple pizzas on an order
     
     Total dollars are strongest at lunch time hours than dinner hours
     Total dollars are stronger on weekdays than weekends
@@ -39,13 +39,24 @@
     Very few XL or XXL pizzas are being sold
         Recommendation: eliminate  these sizes from the menu, cutting down on inventory costs and inventory spoilage
 
-    Items suc as Bree Carre pizza sell far fewer units than other types in the same category
+    Items such as Bree Carre pizza sell far fewer units than other types in the same category
         Recommendation: eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
 ## Techniques Used
     Tableau Techniques:
     - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
-    - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes
+    - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes in the KPIs
+    - Used Level Of Detail expression to find the average units per order for use in the heat map
+
+    Python Techniques:
+    - Read in csv files with pandas
+    - checked for null values
+    - checked for duplicates in unique* columns
+    - converted strings to datetime object for time series analysis
+    - used groupby to aggregate data
+    - used
+
+
     
 
     
