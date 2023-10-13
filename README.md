@@ -43,19 +43,19 @@
         Recommendation: eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
 ## Techniques Used
-    Tableau Techniques:
-    - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
-    - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes in the KPIs
-    - Used Level Of Detail expression to find the average units per order for use in the heat map
+Tableau Techniques:
+- Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
+- Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes in the KPIs
+- Used Level Of Detail expression to find the average units per order for use in the heat map
 
-    Python Techniques:
-    - Read in csv files with pandas
-    - checked for null values and duplicates in columns where values should be unique
+Python Techniques:
+- Read in csv files with pandas
+- checked for null values and duplicates in columns where values should be unique
 ![null/duplicates](/images/nulls_duplicates_check.png)
-    - converted strings to datetime object for time series analysis
-    - merged dataframes
-    - used groupby to aggregate data
-    - 
+- converted strings to datetime object for time series analysis
+- merged dataframes
+- used groupby to aggregate data
+- 
 
 
     
