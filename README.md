@@ -51,7 +51,7 @@
     Python Techniques:
     - Read in csv files with pandas
     - checked for null values and duplicates in columns where values should be unique
-    ![null/duplicates](images/nulls_duplicates_check.png)
+![null/duplicates](/images/nulls_duplicates_check.png)
     - converted strings to datetime object for time series analysis
     - merged dataframes
     - used groupby to aggregate data
