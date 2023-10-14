@@ -10,8 +10,8 @@ Build a monthly sales and KPI dashboard for a fictional pizza restaraunt.
     pizza_types.csv
 
 - Tools Used:
-    Tableau Public - [Dashboard here](https://public.tableau.com/app/profile/michael.hertel/viz/PizzaStoreDashboard/Dashboard2)
-    Python - Exploraty Analysis and Dashboard Data Validation
+    - Tableau Public - [Dashboard here](https://public.tableau.com/app/profile/michael.hertel/viz/PizzaStoreDashboard/Dashboard2)
+    - Python - Exploraty Analysis and Dashboard Data Validation
 
 ## Questions to Answer:
 - Find monthly totals for KPIs with percentage change from previous month
