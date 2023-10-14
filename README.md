@@ -27,8 +27,8 @@ Build a monthly sales and KPI dashboard for a fictional pizza restaraunt.
 - Total dollars sold, total orders, and total units sold are all down in December from November
 - Total dollars and units sold are down more than number of orders
     - Fewer people are ordering multiple pizzas on an order
-
-Total dollars are strongest at lunch time hours than dinner hours
+![dollars](/images/dollars_card.png) ![units](/images/units_card.png)![orders](/images/orders_card.png)
+- Total dollars are strongest at lunch time hours than dinner hours
 Total dollars are stronger on weekdays than weekends
 Avg units sold per order is highest during lunch time hours
     Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
