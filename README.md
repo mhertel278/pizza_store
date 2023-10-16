@@ -34,10 +34,10 @@
 ![dollars](/images/dollars_card.png) ![units](/images/units_card.png)![orders](/images/orders_card.png)
 - Total dollars are strongest at lunch time hours than dinner hours
 - Total dollars are stronger on weekdays than weekends
-- Avg units sold per order is highest during lunch time hours
-    - Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
+- Avg units sold per order is highest during lunch time hours, as seen on the tooltips in these to images:
 ![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
-- Very few orders are being placed before 11:00 am and after 10:00 pm
+    - Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
+- Very few orders are being placed before 11:00 am and after 10:00 pm, as can been seen in the above images
     - Recommendation: reduce business hours to 11:00 am to 11:00 pm to cut down labor costs during low-sales times
 - Very few XL or XXL pizzas are being sold
 ![sizes](/images/sizes.png)
@@ -48,8 +48,7 @@
 ## Techniques Used
 Tableau Techniques:
 - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
-- Used Calculated Fields to display total dollars, units, and orders for the user's chosen month and to calculate month-over-month changes in the KPIs
-- Used Level Of Detail expression to find the average units per order for use in the heat map
+- Used Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
 
 Python Techniques:
 - Read in csv files with pandas
