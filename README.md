@@ -1,8 +1,12 @@
 # Pizza Store Sales Dashboard
 
 ## Project Aim:
-Build a monthly sales and KPI dashboard for a fictional pizza restaraunt.
+- Build a monthly sales and KPI dashboard for a fictional pizza restaraunt
+- Use Python to analyze data check accuracy of dashboard
+- Find insights in sales data for December 2015 and recommend business decisions based on the data
 - Sales data are for full year 2015
+
+## Resouces
 - Data stored in four separate CSV files
     orders.csv
     order_details.csv
@@ -32,6 +36,7 @@ Build a monthly sales and KPI dashboard for a fictional pizza restaraunt.
 - Total dollars are stronger on weekdays than weekends
 - Avg units sold per order is highest during lunch time hours
     - Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
+![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
 - Very few orders are being placed before 11:00 am and after 10:00 pm
     - Recommendation: reduce business hours to 11:00 am to 11:00 pm to cut down labor costs during low-sales times
 - Very few XL or XXL pizzas are being sold
