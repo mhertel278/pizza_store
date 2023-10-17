@@ -50,8 +50,9 @@
 ## Techniques Used
 Tableau Techniques:
 - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
+![parameter](/images/parameter.png)
 - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
-
+![calculated field](/images/sales_calc_field.png)
 Python Techniques:
 - Read in csv files with pandas
 - checked for null values and duplicates in columns where values should be unique
