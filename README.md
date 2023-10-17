@@ -6,7 +6,7 @@
 - Find insights in sales data for December 2015 and recommend business decisions based on the data
 - Sales data are for full year 2015
 
-## Resouces
+## Resources
 - Data stored in four separate CSV files
     orders.csv
     order_details.csv
@@ -15,8 +15,10 @@
 
 - Tools Used:
     - Tableau Public - [Dashboard here](https://public.tableau.com/app/profile/michael.hertel/viz/PizzaStoreDashboard/Dashboard2)
-    - Python - Exploraty Analysis and Dashboard Data Validation
-
+    - Python 3.9.7, Jupyter Notebook 
+        - [Exploratory Analysis Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Sales%20EDA.ipynb)
+        - [Dashboard Data Accuracy Check Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Dashboard%20Data%20Accuracy%20Check.ipynb)
+    - Powerpoint - Dashboard wire frame background
 ## Questions to Answer:
 - Find monthly totals for KPIs with percentage change from previous month
     Total Sales Dollars
