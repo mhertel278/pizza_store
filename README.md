@@ -1,10 +1,11 @@
 # Pizza Store Sales Dashboard
 
 ## Project Aim:
-- Build a monthly sales and KPI dashboard for a fictional pizza restaraunt
-- Use Python to analyze data check accuracy of dashboard
-- Find insights in sales data for December 2015 and recommend business decisions based on the data
-- Sales data are for full year 2015
+- Use Python to read in and explore sales data for a fictional pizza store and determine if any data cleaning or transformation is required
+- Build a monthly sales and KPI dashboard
+- Used Python to analyze the data for confirming the accuracy of the calculations on the dashboard
+- Find insights in sales data for December 2015 (most recent month in the dataset) and recommend business decisions based on the data
+
 
 ## Resources
 - Data stored in four separate CSV files
@@ -31,7 +32,7 @@
 
 ## Findings:
 - Total dollars sold, total orders, and total units sold are all down in December from November
-- Total dollars and units sold are down more than number of orders
+- Total dollars is down a slightly more than number of orders and total units
     - Fewer people are ordering multiple pizzas on an order
 ![dollars](/images/dollars_card.png) ![units](/images/units_card.png)![orders](/images/orders_card.png)
 - Total dollars are strongest at lunch time hours than dinner hours
@@ -49,15 +50,19 @@
 
 ## Techniques Used
 Tableau Techniques:
+- Bar Charts, KPI Cards, Heatmap
 - Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
 ![parameter](/images/parameter.png)
 - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
 ![calculated field](/images/sales_calc_field.png)
 Python Techniques:
 - Read in csv files with pandas
-- checked for null values and duplicates in columns where values should be unique
+- Checked for null values and duplicates in columns where values should be unique
 ![null/duplicates](/images/nulls_duplicates_check.png)
-- converted strings to datetime object for time series analysis
+- Checked number of unique values in certain columns to validate foreign key columns
+![unique validation](/images/unique_validation.png)
+- Checked data types and converted strings to datetime object for time series analysis
+![datetime](/images/datetime.png)
 - merged dataframes
 - used groupby to aggregate data
 - 
