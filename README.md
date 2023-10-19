@@ -1,14 +1,14 @@
 # Pizza Store Sales Dashboard
 
 ## Project Aim:
-- Use Python to read in and explore sales data for a fictional pizza store and determine if any data cleaning or transformation is required
+- Use Python Pandas to read in and explore sales data for a fictional pizza store and determine if any data cleaning or transformation is required
 - Build a monthly sales and KPI dashboard
 - Used Python to analyze the data for confirming the accuracy of the calculations on the dashboard
 - Find insights in sales data for December 2015 (most recent month in the dataset) and recommend business decisions based on the data
 
 
 ## Resources
-- Data stored in four separate CSV files
+- Data for year 2015 stored in four separate CSV files
     orders.csv
     order_details.csv
     pizzas.csv
@@ -16,7 +16,7 @@
 
 - Tools Used:
     - Tableau Public - [Dashboard here](https://public.tableau.com/app/profile/michael.hertel/viz/PizzaStoreDashboard/Dashboard2)
-    - Python 3.9.7, Jupyter Notebook 
+    - Python 3.9.7, Pandas, Jupyter Notebook 
         - [Exploratory Analysis Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Sales%20EDA.ipynb)
         - [Dashboard Data Accuracy Check Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Dashboard%20Data%20Accuracy%20Check.ipynb)
     - Powerpoint - Dashboard wire frame background
@@ -46,6 +46,7 @@
 ![sizes](/images/sizes.png)
     - Recommendation: eliminate  these sizes from the menu, cutting down on inventory costs and inventory spoilage
 - Items such as Bree Carre pizza sell far fewer units than other types in the same category
+![type](/images/pizza_type.png)
     - Recommendation: eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
 ## Techniques Used
