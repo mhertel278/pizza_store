@@ -41,7 +41,7 @@
 ![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
     - Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
 - Very few orders are being placed before 11:00 am and after 10:00 pm, as can been seen in the above images
-    - Recommendation: reduce business hours to 11:00 am to 11:00 pm to cut down labor costs during low-sales times
+    - Recommendation: reduce business hours to 11:00 am to 10:00 pm to cut down labor costs during low-sales times
 - Very few XL or XXL pizzas are being sold
 ![sizes](/images/sizes.png)
     - Recommendation: eliminate  these sizes from the menu, cutting down on inventory costs and inventory spoilage
@@ -56,7 +56,7 @@ Tableau Techniques:
 ![parameter](/images/parameter.png)
 - Used Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
 ![calculated field](/images/sales_calc_field.png)
-Python Techniques:
+## Python Techniques:
 - Read in csv files with pandas
 - Checked for null values and duplicates in columns where values should be unique
 ![null/duplicates](/images/nulls_duplicates_check.png)
