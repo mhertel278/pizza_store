@@ -39,15 +39,20 @@
 - Total dollars are stronger on weekdays than weekends
 - Avg units sold per order is highest during lunch time hours, as seen on the tooltips in these to images:
 ![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
-    - Recommendation: offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
+  
 - Very few orders are being placed before 11:00 am and after 10:00 pm, as can been seen in the above images
-    - Recommendation: reduce business hours to 11:00 am to 10:00 pm to cut down labor costs during low-sales times
+
 - Very few XL or XXL pizzas are being sold
 ![sizes](/images/sizes.png)
-    - Recommendation: eliminate  these sizes from the menu, cutting down on inventory costs and inventory spoilage
+
 - Items such as Bree Carre pizza sell far fewer units than other types in the same category
 ![type](/images/pizza_type.png)
-    - Recommendation: eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
+
+### Recommendations
+    - Offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
+    - Reduce business hours to 11:00 am to 10:00 pm to cut down labor costs during low-sales times
+    - Eliminate  XL and XXL sizes from the menu, cutting down on inventory costs and inventory spoilage
+    - Eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
 ## Techniques Used
 Tableau Techniques:
