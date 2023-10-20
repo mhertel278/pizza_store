@@ -9,10 +9,10 @@
 
 ## Resources
 - Data for year 2015 stored in four separate CSV files
-    orders.csv
-    order_details.csv
-    pizzas.csv
-    pizza_types.csv
+    - orders.csv
+    - order_details.csv
+    - pizzas.csv
+    - pizza_types.csv
 
 - Tools Used:
     - Tableau Public - [Dashboard here](https://public.tableau.com/app/profile/michael.hertel/viz/PizzaStoreDashboard/Dashboard2)
@@ -72,8 +72,9 @@ The coloring of the heat map initially did not update when the month parameter w
 ![unique validation](/images/unique_validation.png)
 - Checked data types and converted strings to datetime object for time series analysis
 ![datetime](/images/datetime.png)
-- merged dataframes
-- used groupby to aggregate data
+- Merged dataframes
+- Groupby and resample to aggregate data
+![resample](/images/resample.png)
 - 
 
 
