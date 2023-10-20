@@ -22,9 +22,9 @@
     - Powerpoint - Dashboard wire frame background
 ## Questions to Answer:
 - Find monthly totals for KPIs with percentage change from previous month
-    Total Sales Dollars
-    Total Units Sold
-    Total Orders
+    - Total Sales Dollars
+    - Total Units Sold
+    - Total Orders
 - At what times and days are sales the strongest and weakest?
 - Which pizza sizes are the strongest and weakest?
 - Which pizza types are the strongest and weakest?
@@ -55,16 +55,16 @@
 - Eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
 ## Troubleshooting
-The coloring of the heat map initially FINISH THIS THOUGHT!!!!!!!!!!!!!!
+The coloring of the heat map initially did not update when the month parameter was changed, while the tooltips did update. Upon checking the dashboard against the data analysis done in python, I determined that the tooltips were correctly showing the sales data for the chosen month, while the coloring was summarizing the entire year. I changed fields for the heat map to use the Chosen Month Sales calculated field which fixed the problem.
 
 ## Techniques Used
-Tableau Techniques:
+### Tableau Techniques:
 - Bar Charts, KPI Cards, Heatmap
-- Used Perameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
+- Parameters to allow users to select the month of sales to view for the whole dashboard and which category to view for one chart
 ![parameter](/images/parameter.png)
-- Used Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
+- Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
 ![calculated field](/images/sales_calc_field.png)
-## Python Techniques:
+### Python Techniques:
 - Read in csv files with pandas
 - Checked for null values and duplicates in columns where values should be unique
 ![null/duplicates](/images/nulls_duplicates_check.png)
