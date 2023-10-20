@@ -75,7 +75,7 @@ The coloring of the heat map initially did not update when the month parameter w
 - Merged dataframes
 - Groupby and resample to aggregate data
 ![resample](/images/resample.png)
-- 
+
 
 
     

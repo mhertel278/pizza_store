@@ -1,0 +1,7 @@
+Pizza Dashboard Loom Video
+-intro myself
+- intro dashboard
+- demonstrate month parameter
+- highlight updates in KPI cards and % changes
+
+START HERE NEXT
