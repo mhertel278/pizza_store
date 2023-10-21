@@ -64,6 +64,8 @@ The coloring of the heat map initially did not update when the month parameter w
 ![parameter](/images/parameter.png)
 - Calculated Fields to display total dollars, units, and orders for the user's chosen month, to calculate month-over-month changes in the KPIs, and create up and down arrows for KPI cards
 ![calculated field](/images/sales_calc_field.png)
+- Conditional Formatting to color up arrows green and down arrows red
+![conditional formatting](/images/conditional_formatting.png)
 ### Python Techniques:
 - Read in csv files with pandas
 - Checked for null values and duplicates in columns where values should be unique
