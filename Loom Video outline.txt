@@ -1,7 +1,31 @@
 Pizza Dashboard Loom Video
 -intro myself
 - intro dashboard
+-- data source from Maven
+-- performed EDA with pandas
+-- Built Monthly KPI Dashboard
+- Highlight KPI Cards
 - demonstrate month parameter
-- highlight updates in KPI cards and % changes
+- highlight updates in KPI cards, % changes, conditional format arrows
 
-START HERE NEXT
+- Highlight Heatmap
+-- point out darkest sales times
+-- demonstrate tooltips
+-- point out pizzas per order lower after lunch
+--- Recommend bogo
+-- point out week early/late hours
+--- Recommend reducing business hours
+
+- Highlight Sizes chart
+-- recommend dropping XL, XXL
+
+- Highlight types chart
+-- demonstrate category parameter
+--- Recommend dropping Brie Pizza
+
+- ? open parameter window
+- open calculated field window for chosen month sales, sales % change
+- open edit text on KPI card to highlight conditional formatting
+-- discuss incorporation of 
+
+
