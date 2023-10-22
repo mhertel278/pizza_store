@@ -4,8 +4,8 @@ Pizza Dashboard Loom Video
 -- data source from Maven
 -- performed EDA with pandas
 -- Built Monthly KPI Dashboard
-- Highlight KPI Cards
 - demonstrate month parameter
+- Highlight KPI Cards
 - highlight updates in KPI cards, % changes, conditional format arrows
 
 - Highlight Heatmap

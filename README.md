@@ -37,7 +37,7 @@
 ![dollars](/images/dollars_card.png) ![units](/images/units_card.png)![orders](/images/orders_card.png)
 - Total dollars are strongest at lunch time hours than dinner hours
 - Total dollars are stronger on weekdays than weekends
-- Avg units sold per order is highest during lunch time hours, as seen on the tooltips in these to images:
+- Total orders and average units sold per order is highest during lunch time hours, as seen on the tooltips in these to images:
 ![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
   
 - Very few orders are being placed before 11:00 am and after 10:00 pm, as can been seen in the above images
