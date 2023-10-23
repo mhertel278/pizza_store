@@ -1,0 +1,48 @@
+## Intro
+
+Hello, this is Michael Hertel
+I are looking at a Dashboard I created to show KPIs for a fictional Pizza store.
+
+## Background
+The data for this dashboard comes from Maven Analytics and covers sales for this
+	fictonal store for the year 2015 and is organized in 4 csv files
+Before building the dashboard I performed some exploraty analysis in Python with Pandas
+	and used the analysis there to validate the accuracy of
+	the results on the dashboard as I was building it.
+
+## Dashboard Overview-Parameter
+The dashboard summarizes the data for one month at a time, and the parameter in the upper right
+	allows the user to select which month to view.
+	As you can see each KPI card and chart updates when a different month is chosen. For 
+	this project analysis I'll look at the data for the most recent month in the data set-December
+## KPIs
+The KPI Cards show us 
+	total sales in USD
+	total pizzas ordered
+	and total orders
+Each card shows the total for the chosen month as Ill as a percentage up or down to the previous month
+	and an up or down arrow with conditional formatting, green for up and red for down
+I can see that in December all 3 KPIs are down from the previous month, but Dollars are down
+	more than the other two values, indicating that I are getting feIr dollars and units per order
+So I will look for opportunities to try to improve the dollars and units per sale, 
+	But also with sales being down I will look for opportunites to cut unnecessary cost
+
+## HeatMap
+Next I will move to the Heatmap to see what days and times sales dollars are the strongest
+	The shading is the darkest during lunch time on Weekdays
+	and a little less strong at dinner time and on weekends. 
+	The tooltips that pop up show that the most orders are being placed during lunch		
+	hours, and the avg pizzas per order is higher than during dinner.
+### Recommendation
+	To boost sales during dinner/weekends I recommend offering a Buy one Get one half off or similar
+	promo to increase the dollars/units per order
+We see sales and orders are very week before 11 am and after 10 pm,
+	So I recommend limiting business hours to 11 am to 10 pm, cutting labor cost during
+	the hours that are likely not profitable
+
+## Sizes
+Next I'll take a look a the the sales by size chart, which shows that sizes XL and XXL
+	sell very few units
+	I recommend eliminating those sizes, cutting the cost of having to have dough ready that will then likely spoil
+## Pizza type
+
