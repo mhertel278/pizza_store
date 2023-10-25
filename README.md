@@ -1,9 +1,9 @@
 # Pizza Store Sales Dashboard
 
-## Project Aim:
+## Project Scope:
 - Use Python Pandas to read in and explore sales data for a fictional pizza store and determine if any data cleaning or transformation is required
 - Build a monthly sales and KPI dashboard
-- Used Python to analyze the data for confirming the accuracy of the calculations on the dashboard
+- Analyze data in Python for confirming the accuracy of the calculations on the dashboard
 - Find insights in sales data for December 2015 (most recent month in the dataset) and recommend business decisions based on the data
 
 
@@ -20,6 +20,7 @@
         - [Exploratory Analysis Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Sales%20EDA.ipynb)
         - [Dashboard Data Accuracy Check Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Dashboard%20Data%20Accuracy%20Check.ipynb)
     - Powerpoint - Dashboard wire frame background
+    - Loom - [Video Presentation Here]
 ## Questions to Answer:
 - Find monthly totals for KPIs with percentage change from previous month
     - Total Sales Dollars
@@ -37,7 +38,7 @@
 ![dollars](/images/dollars_card.png) ![units](/images/units_card.png)![orders](/images/orders_card.png)
 - Total dollars are strongest at lunch time hours than dinner hours
 - Total dollars are stronger on weekdays than weekends
-- Total orders and average units sold per order is highest during lunch time hours, as seen on the tooltips in these to images:
+- Total orders and average units sold per order is highest during lunch time hours, as seen on the tooltips below:
 ![lunch](/images/heat_map_lunch.png) ![dinner](/images/heat_map_dinner.png)
   
 - Very few orders are being placed before 11:00 am and after 10:00 pm, as can been seen in the above images
