@@ -46,7 +46,7 @@
 - Very few XL or XXL pizzas are being sold
 ![sizes](/images/sizes.png)
 
-- Items such as Bree Carre pizza sell far fewer units than other types in the same category
+- Items such as Brie Carre pizza sell far fewer units than other types in the same category
 ![type](/images/pizza_type.png)
 
 ### Recommendations
