@@ -48,7 +48,7 @@
 
 - Items such as Brie Carre pizza sell far fewer units than other types in the same category
 ![type](/images/pizza_type.png)
-
+# RESUME PROOFREADING HERE
 ### Recommendations
 - Offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
 - Reduce business hours to 11:00 am to 10:00 pm to cut down labor costs during low-sales times
