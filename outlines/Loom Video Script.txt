@@ -11,7 +11,7 @@ Before building the dashboard I performed some exploraty analysis in Python with
 	the results on the dashboard as I was building it.
 
 ## Dashboard Overview-Parameter
-The dashboard summarizes the data for one month at a time, and the parameter in the upper right
+The dashboard displays summarized data for one month at a time, and the parameter in the upper right
 	allows the user to select which month to view.
 	As you can see each KPI card and chart updates when a different month is chosen. For 
 	this project analysis I'll look at the data for the most recent month in the data set-December
