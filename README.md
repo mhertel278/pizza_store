@@ -20,7 +20,7 @@
         - [Exploratory Analysis Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Sales%20EDA.ipynb)
         - [Dashboard Data Accuracy Check Notebook](https://github.com/mhertel278/pizza_store/blob/main/Pizza%20Dashboard%20Data%20Accuracy%20Check.ipynb)
     - Powerpoint - Dashboard wire frame background
-    - Loom - [Video Presentation Here]
+    - Loom - [Video Presentation Here](https://www.loom.com/share/cc8151b13dad4a0face5a70e9eb53994?sid=69db21ad-1b75-4eda-90b9-d96af386baa8)
 ## Questions to Answer:
 - Find monthly totals for KPIs with percentage change from previous month
     - Total Sales Dollars
