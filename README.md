@@ -50,8 +50,8 @@
 ![type](/images/pizza_type.png)
 # RESUME PROOFREADING HERE
 ### Recommendations
-- Offer buy-one-get-one 50% off or some similar offer in the evening hours to increase pizzas per order and thus total dollars in evening
-- Reduce business hours to 11:00 am to 10:00 pm to cut down labor costs during low-sales times
+- Offer buy-one-get-one 25% off in the evening hours to encourage more orders and increase pizzas per order, thus improving total dollars in evening
+- Reduce business hours to 11:00 am to 10:00 pm to eliminate labor costs during low-sales times
 - Eliminate  XL and XXL sizes from the menu, cutting down on inventory costs and inventory spoilage
 - Eliminate Brie Carre and other pizza types from the menu, cutting costs for specialty ingredients
 
